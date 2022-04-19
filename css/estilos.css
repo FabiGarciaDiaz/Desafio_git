@@ -75,7 +75,7 @@ section {
     text-align: center;
     padding: 35px;
     height: 100%;
-    background-color: bisque;
+    background-image: linear-gradient(to left bottom, rgb(255, 186, 59), bisque);
     margin: 30px 10px;
 }
 .articuloUno__titulo {
@@ -103,7 +103,7 @@ section {
     text-align: center;
     padding: 25px;
     height: 90%;
-    background-color: bisque;
+    background-image: linear-gradient(to left bottom, rgb(255, 186, 59), bisque) ;
     margin: 0px 10px;
 }
 .articuloDos__titulo {
@@ -127,7 +127,7 @@ table, td, th {
 .articuloTres__titulo {
 margin: 10px;
 border: 2px solid rgb(255, 186, 59);
-background-color: bisque;
+background-image: linear-gradient(to left bottom, rgb(255, 186, 59), bisque) ;
 padding: 25px;
 color: rgb(128, 91, 22);
 font-family: 'Poppins', sans-serif;
