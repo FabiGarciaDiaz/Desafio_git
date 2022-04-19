@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARA TEJIENDO IDEAS</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="contenedor__logo">
+            <img src="./assets/img/JARA logo.jpg" alt="logo" class="imagen__logo">
+        </div>
+        <nav>
+            <ul class="contenedor__nav__ul">
+                <li class="contenedor__nav__ulItem"><a href="index.html">INICIO</a></li>
+                <li class="contenedor__nav__ulItem"><a href="./paginas/patrones.html">PATRONES GRATIS</a></li>
+                <li class="contenedor__nav__ulItem"><a href="./paginas/tips.html">TIPS</a></li>
+                <li class="contenedor__nav__ulItem"><a href="./paginas/sobremi.html">SOBRE MI</a> </li>
+                <li class="contenedor__nav__ulItem"><a href="./paginas/contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <img src="./assets/img/imagen con frase1.jpg" alt="encuentra la calma mientras tejes" class="header__img">
+        </header>
+        <section>
+            <div class="separador">
+                <article class="articuloUno">
+                    <h3 class="articuloUno__titulo"><a href="./paginas/comocuidar.html">COMO CUIDAR TU AMIGURUMI!!!</a>
+                    </h3>
+                    <img src="./assets/img/amigurumis.jpg" alt="amigurumis" class="articuloUno__img">
+                </article>
+                <article class="articuloDos">
+                    <h3 class="articuloDos__titulo">MEDIDAS DE LOS AMIGURUMIS</h3>
+                    <table cellpadding="6px" cellspacing="3px">
+                        <thead>
+                            <tr>
+                                <th>MODELO</th>
+                                <th>SMALL</th>
+                                <th>MEDIUM</th>
+                                <th>LARGE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Koala</td>
+                                <td>10 cm.</td>
+                                <td>15 cm.</td>
+                                <td>20 cm.</td>
+                            </tr>
+                            <tr>
+                                <td>Oso</td>
+                                <td>15 cm.</td>
+                                <td>25 cm.</td>
+                                <td>30 cm.</td>
+                            </tr>
+                            <tr>
+                                <td>Jirafa</td>
+                                <td>30 cm.</td>
+                                <td>40 cm.</td>
+                                <td>45 cm.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </div>
+            <article class="articuloTres">
+                <h3 class="articuloTres__titulo">PUNTO BÁSICO DEL ANILLO MÁGICO</h3>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0PwTTR12AnI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen class="articuloTres__video"></iframe>
+            </article>
+        </section>
+        <aside>
+            <form action="">
+                <fieldset class="formulario">
+                    <legend>Registrate ahora</legend>
+
+                    <div class="formulario__label">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="formulario__label">
+                        <label for="telefono">Telefono:</label>
+                        <input type="tel" id="telefono" placeholder="1111-5555">
+                    </div>
+                    <div class="formulario__label">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="micorreo@gmail.com">
+                    </div>
+                    <div class="formulario__label">
+                        <label for="paises">Pais:</label>
+                        <select name="paises" id="paises">
+                            <option value="argentina">Argentina</option>
+                            <option value="brasil">Brasil</option>
+                            <option value="uruguay">Uruguay</option>
+                            <option value="chile">Chile</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="formulario__label">
+                        <label for="limpiar"></label>
+                        <input type="reset" id="limpiar" value="Limpiar formulario">
+                    </div>
+                    <div class="formulario__label">
+                        <label for="enviar"></label>
+                        <input type="submit" id="enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </aside>
+        <footer>
+            <p> Copyright © 2022 Jara Tejiendo Ideas. CABA, Argentina.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
